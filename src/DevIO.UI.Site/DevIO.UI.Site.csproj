@@ -12,7 +12,9 @@
   <ItemGroup>
     <Folder Include="Areas\Produtos\Data\" />
     <Folder Include="Areas\Produtos\Models\" />
-    <Folder Include="Models\" />
+    <Folder Include="Areas\Vendas\Data\" />
+    <Folder Include="Areas\Vendas\Models\" />
+    <Folder Include="Services\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,6 +24,10 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.14">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.10" />
   </ItemGroup>
 
